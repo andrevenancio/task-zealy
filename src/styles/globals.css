@@ -1,6 +1,16 @@
 :root {
-  --background-color: rgb(32, 32, 32);
-  --foreground-color: rgb(210, 210, 210);
+  --background-color: #22292f;
+  --foreground-color: #888888;
+
+  --card-background-color: #262d35;
+  --card-border-color: #333a44;
+
+  --form-background-color: #1b1940;
+  --form-border-color: #4b39ef;
+  --form-color: #98a1b0;
+
+  --button-background-color: #4b39ef;
+  --button-color: #ffffff;
 }
 
 * {

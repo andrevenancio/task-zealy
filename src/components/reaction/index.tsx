@@ -72,7 +72,7 @@ export const ReactionComponent: React.FC<ReactionProps> = ({
       case STATE.REPLYING:
         return (
           <div className={styles.replying}>
-            <ReplyFormComponent onReply={handleReply} label="SUBMIT" />
+            <ReplyFormComponent onReply={handleReply} label="Submit" />
           </div>
         )
       case STATE.OPEN:
@@ -82,7 +82,7 @@ export const ReactionComponent: React.FC<ReactionProps> = ({
             {replies.map((reply) => (
               <ReplyComponent key={reply.id} {...reply} />
             ))}
-            <ReplyFormComponent onReply={handleReply} label="REPLY" />
+            <ReplyFormComponent onReply={handleReply} label="Reply" />
           </div>
         )
       default:
